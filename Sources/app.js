@@ -91,7 +91,7 @@ app.get('/products', (req,res) => {
 app.get('/help/*',(req,res) => {
     res.render('404',{
         errorMSG:'Help page not found!',
-        name:'NEWB-CAKES'
+        name:'WE LOVE BRITT!!!'
     })
 })
 
