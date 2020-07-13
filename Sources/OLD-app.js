@@ -18,10 +18,16 @@ app.use(express.static(publicPath))
 //pretend I own app.com
 //It also has other pages like perhaps app.com/help or app.com/about
 //to access these resources use app.get
+
 // app.get('',(req,res) =>{  //TAKES 2 ARGUMENTS: REQUEST AND RESPONSE
 // //    res.send('Hello Express!')  //lets us send a string back to the requester
 //     res.send('<h1>Weather</h1>')  //lets us specify HTML to send back
 // })
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Create Pages
 
 //Manually create a help page
 // app.get('/help',(req,res) =>{
